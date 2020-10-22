@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Shurjo Banerjee"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Shurjo Banerjee"
+description              : &description "5th year PhD at the University of Michigan"
+url                      : https://shurjobanerjee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "shurjobanerjee/shurjobanerjee.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Shurjo Banerjee"
-  avatar           : "profile2.png"
+  avatar           : "profile.jpg"
   bio              : "I am a 5th year PhD student at the University of Michigan. I work with Dr. Jason Corso. I am broadly interested in problems related to deep reinforcement learning, incremental learning and vision-and-language navigation (VLN)."
   location         : "Ann Arbor, Michigan"
   employer         :
