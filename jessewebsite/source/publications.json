@@ -62,6 +62,16 @@
             "month": "December",       
             "year": "2017",
             "paper": "https://drive.google.com/file/d/1WfC6iJEFyJtw9VL6ppvNz03_kcpx1DKj/view"
+        },
+        {
+            "short": "multimodalTTS16",
+            "bibtype": "inproceedings",
+            "title": "Towards a wireless multimodal speech capture system",
+            "author": "Nordine Sebkhi and Dhyey Desai and Aamir Khan and Nischal Prasad and Shurjo Banerjee and Justin Eng and Kimberly Wilson and Maysam M. Ghovanloo",
+            "booktitle": "IEEE Biomedical Circuits and Systems Conference",
+            "month": "October",       
+            "year": "2016",
+            "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7833730&tag=1"
         }
 
  	]
