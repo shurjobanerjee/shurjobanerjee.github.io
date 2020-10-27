@@ -1,6 +1,6 @@
 [
  {
- 	"header": "Conference and Journal Papers",
+ 	"header": "Papers",
  	"entries":	[
         {
             "short": "robotslang:corl20",
@@ -12,6 +12,26 @@
             "year": "2020",
             "paper": "https://arxiv.org/abs/2010.12639",
             "video": "https://umrobotslang.github.io/"
+        },
+        {
+            "short": "goa19",
+            "bibtype": "inproceedings",
+            "title": "A Geometric Approach to Online Streaming Feature Selection",
+            "author": "Salimeh Y. Sekeh and Madan R. Ganesh and Shurjo Banerjee and Jason J. Corso and Alfred H. Hero",
+            "booktitle": "Arxiv preprint",
+            "month": "October",
+            "year": "2019",
+            "paper": "https://arxiv.org/abs/1910.01182"
+        },
+        {
+            "short": "criticalinvestigation18",
+            "bibtype": "inproceedings",
+            "title": "A Critical Investigation of Deep Reinforcement Learning for Navigation",
+            "author": "Shurjo Banerjee and Vikas Dhiman and Brent Griffin and Jeffrey M. Siskind and Jason J. Corso",
+            "booktitle": "Arxiv preprint",
+            "month": "February",
+            "year": "2018",
+            "paper": "https://arxiv.org/abs/1802.02274"
         }
  	]
  },
