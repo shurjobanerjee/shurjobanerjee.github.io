@@ -1,0 +1,49 @@
+#container, #container {
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:36px;
+}
+
+.table-sm{
+	font-size:36px;
+}
+.table{
+	font-size:36px;
+}
+h1{
+	font-size:84px;
+}
+h2{
+	font-size:72px;
+}
+h3{
+	font-size:60px;
+}
+h4{
+	font-size:48px;
+}
+h5{
+	font-size:36px;
+}
+h6{
+	font-size:24px;
+}
+
+.btn{
+	font-size:36px !important;
+}
+
+.fixed-td {
+	width: 200px;
+}
+
+.img-thumbnail {
+	width: 167px;
+	height: 167px;
+}
+
+.face-thumbnail {
+	width: 200px;
+	height: 200px;
+}

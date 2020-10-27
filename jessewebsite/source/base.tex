@@ -1,0 +1,135 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\usepackage{fullpage}
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+%\setlength{\headheight}{24pt} % allow room for 2-line header
+%\setlength{\headsep}{24pt}  % space between header and text
+%\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\cfoot{}                                     % the foot is empty
+%\topmargin=-0.5in % start text higher on the page
+
+\newcommand{\reducevspace}{\vspace{-4pt}}
+
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=blue
+]{hyperref}
+
+\definecolor{darkblue}{RGB}{0,0,75}
+\newcommand{\citehref}[2]{\href{#1}{\color{darkblue}{#2}}}
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+\name{JESSE THOMASON\\[12pt]}% the \\[12pt] adds a blank line after name
+
+\address{\citehref{https://jessethomason.com/}{jessethomason.com} \\
+thomason.jesse@gmail.com}     
+
+% \address{916 E 39th Street \\ Unit B \\ Austin, TX 78751}
+\address{ }
+
+\begin{resume}
+
+\section{RESEARCH INTERESTS}
+My research focuses on language grounding and natural language processing applications for robotics, including how dialog with humans can facilitate both robot task execution and learning.
+
+\section{EDUCATION}
+
+\begin{itemize}
+  \item PhD Computer Science, University of Texas at Austin \hfill 2013-18
+  \item BS Computer Science; Mathematics, University of Pittsburgh \hfill 2009-13
+ \end{itemize}
+
+ \section{RESEARCH and INDUSTRY POSITIONS}
+
+  \begin{itemize}
+    \item University of Southern California, Assistant Professor \hfill 2021-\dots
+    \item Amazon Alexa AI, Visiting Academic \hfill 2020-2021
+    \item University of Washington, Research Associate (Postdoc) with Luke Zettlemoyer \hfill 2018-20
+    \item Google, PhD Intern \hfill 2016
+    \item Einhorn Media Group \hfill 2011-13
+   \end{itemize}
+
+ \section{FELLOWSHIPS and AWARDS}
+
+ \begin{itemize}
+  \item National Science Foundation Graduate Research Fellowship (NSF GRFP) \hfill 2015
+  \item Microelectronics and Computer Development (MCD) Fellowship, University of Texas at Austin \hfill 2013
+  \item Computer Science Outstanding Undergraduate Student Award, University of Pittsburgh \hfill 2013
+  \item Honors College Chancellor's Scholarship, University of Pittsburgh \hfill 2009
+\end{itemize}
+
+\section{PUBLICATIONS}
+
+#PUBS#
+
+\section{PROFESSIONAL ACTIVITIES and SERVICE}
+
+{\sl Invited Talks}
+  \begin{itemize}
+    \item \citehref{https://sites.google.com/view/2ndnlp4convai/}{Workshop on NLP for Conversational AI} \hfill ACL-20
+    \item \citehref{https://www.cs.princeton.edu/courses/archive/spring20/cos598C/}{Princeton COS 598C}: Language Grounding with Robots \hfill 2020
+    \item \citehref{https://vigilworkshop.github.io/}{Visually Grounded Interaction and Language (ViGIL) Workshop} \hfill NeurIPS-19
+    \item \citehref{https://sites.google.com/view/spar2019/speakers}{Semantic Policy and Action Representations for Autonomous Robots (SPAR) Workshop} \hfill IROS-19
+    \item Microsoft Research: \citehref{https://www.youtube.com/watch?v=XL3FMpceYoE}{Vision-and-Dialog Navigation} \hfill 2019
+  \end{itemize}
+
+{\sl Conference Organization / Area Chair}
+  \begin{itemize}
+    \item \textbf{Area Chair}: IJCAI-20
+    \item \textbf{Organizer}: \citehref{https://askforalfred.com/EVAL/}{Embodied Vision, Actions \& Language Workshop (EVAL)} at ECCV-20
+    \item \textbf{Area Chair}: Language Grounding to Vision, Robotics and Beyond for ACL-20
+    \item \textbf{Organizer}: \citehref{https://alvr-workshop.github.io/}{First Workshop on Advances in Language and Vision Research (ALVR)} at ACL-20
+    \item \textbf{Co-Chair}: \citehref{https://splu-robonlp.github.io/}{Combined Workshop on Spatial Language Understanding (SpLU) and Grounded Communication for Robotics (RoboNLP)} at NAACL-19
+    \item \textbf{Co-Chair}: \citehref{https://robodial.github.io/}{Special Session on Physically Situated Dialog (RoboDIAL)} at SIGDIAL-18
+    \item \textbf{Organizer}: \citehref{http://www2.ece.rochester.edu/projects/rail/mrhrc2018/}{Workshop on Communicating with Robots Naturally (CWRN)} at RSS-18
+  \end{itemize}
+
+{\sl University}
+\begin{itemize}
+    \item Organizer: UW NLP Invited Talks Seminar \hfill 18-2019
+    \item Organizer: UW RoboNLP Reading Group \hfill 18-2019
+    \item Organizer: UW NLP Applications Reading Group \hfill 2018
+    \item Organizer: UT Connecting Language Acquisition with Machine Perception Reading Group \hfill 14-2018
+  \end{itemize}
+
+{\sl Conference and Workshop Reviewing}
+  \begin{itemize}
+    \item North American Chapter of the Association for Computational Linguistics (NAACL) \hfill 16, 19, 2021
+    \item European Chapter of the Association for Computational Linguistics (EACL) \hfill 2021
+    \item International Conference on Learning Representations (ICLR) \hfill 2021
+    \item Human in the Loop Dialogue Systems (HLDS) \hfill NeurIPS-20
+    \item Conference on Robot Learning (CoRL) \hfill 18-2020
+    \item Workshop on Spatial Language Understanding (SpLU) \hfill EMNLP-20
+    \item Empirical Methods in Natural Language Processing (EMNLP) \hfill 17-2020
+    \item Workshop on Language in Reinforcement Learning (LaReL) \hfill ICML-20
+    \item Conference on Computational Natural Language Learning (CoNLL) \hfill 2019
+    \item Advances in Neural Information Processing Systems (NeurIPS) \hfill 17, *2019
+    \\ {\footnotesize *Top 50\% of reviewers.}
+    \item International Symposium on Robot and Human Interactive Communication (RO-MAN) \hfill 2019
+    \item Association for Computational Linguistics (ACL) \hfill 18-2019
+    \item International Conference on Intelligent Robots and Systems (IROS) \hfill 18-2019
+    \item International Conference on Machine Learning (ICML) \hfill 2019
+    \item Autonomous Agents and Multi-Agent Systems (AAMAS) \hfill 15-16, 2019
+    \item Human-Robot Interaction (HRI) \hfill 2018
+    \item International Conference on Computational Linguistics (COLING) \hfill 2018
+    \item Robotics: Science and Systems (RSS) \hfill 17-2018
+    \item International Joint Conference on Artificial Intelligence (IJCAI) \hfill 2017
+    \item Workshop on Language Grounding for Robotics (RoboNLP) \hfill ACL-17
+  \end{itemize}
+
+{\sl Journal Reviewing}
+  \begin{itemize}
+    \item Computational Linguistics (CL) [2 articles] \hfill {\it Standing Reviewer} 2019-\dots
+    \item Elsevier Journal of Artificial Intillengence (AIJ) \hfill 2019
+    \item Springer Autonomous Agents and Multi-Agent Systems (AGNT) \hfill 2019
+    \item ACM Transactions on Interactive Intelligent Systems (TiiS) \hfill 2018
+    \item Springer Autonomous Robots (AURO) \hfill 2018
+  \end{itemize}
+ 
+\end{resume} 
+\end{document}

@@ -1,0 +1,9 @@
+{
+  "0":   {
+    "date": "October 2020",
+    "type": "Accepted Paper",
+    "org": "CORL",
+    "desc": "The RobotSlang Benchmark: Dialog-guided Robot Localization and Navigation",
+    "text": "Our paper about real-robot VLN tasks was accepted at CORL 2020!"
+ }
+}

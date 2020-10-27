@@ -1,0 +1,30 @@
+[
+ {
+ 	"header": "Conference and Journal Papers",
+ 	"entries":	[
+        {
+            "short": "robotslang:corl20",
+            "bibtype": "inproceedings",
+            "title": "The RobotSlang Benchmark: Dialog-guided Robot Localization and Navigation",
+            "author": "Shurjo Banerjee and Jesse Thomason and Jason J. Corso",
+            "booktitle": "The Conference on Robot Learning (CORL)",
+            "month": "November",
+            "year": "2020",
+            "paper": "https://arxiv.org/abs/2010.12639",
+            "video": "https://umrobotslang.github.io/"
+        }
+ 	]
+ },
+ {
+ 	"header": "Thesis work",
+ 	"entries":	[
+
+ 	]
+ },
+ {
+    "header": "Preprints",
+    "entries":  [
+        
+    ]
+ }
+]
