@@ -18,7 +18,7 @@
             "bibtype": "inproceedings",
             "title": "A Geometric Approach to Online Streaming Feature Selection",
             "author": "Salimeh Y. Sekeh and Madan R. Ganesh and Shurjo Banerjee and Jason J. Corso and Alfred H. Hero",
-            "booktitle": "Arxiv preprint",
+            "booktitle": "ArXiv",
             "month": "October",
             "year": "2019",
             "paper": "https://arxiv.org/abs/1910.01182"
@@ -28,11 +28,42 @@
             "bibtype": "inproceedings",
             "title": "A Critical Investigation of Deep Reinforcement Learning for Navigation",
             "author": "Shurjo Banerjee and Vikas Dhiman and Brent Griffin and Jeffrey M. Siskind and Jason J. Corso",
-            "booktitle": "Arxiv preprint",
+            "booktitle": "ArXiv",
             "month": "February",
             "year": "2018",
             "paper": "https://arxiv.org/abs/1802.02274"
+        },
+        {
+            "short": "onestepreward18",
+            "bibtype": "inproceedings",
+            "title": "Learning goal-conditioned value functions with one-step path rewards rather than goal rewards",
+            "author": "Vikas Dhiman and Shurjo Banerjee and Jeffrey M. Siskind and Jason J. Corso",
+            "booktitle": "OpenReview",
+            "month": "September",
+            "year": "2019",
+            "paper": "https://openreview.net/pdf?id=BkesGnCcFX"
+        },
+        {
+            "short": "floydwarshall18",
+            "bibtype": "inproceedings",
+            "title": "Floyd-Warshall Reinforcement Learning: Learning from Past Experiences to Reach New Goals",
+            "author": "Vikas Dhiman and Shurjo Banerjee and Jeffrey M. Siskind and Jason J. Corso",
+            "booktitle": "arXiv",
+            "month": "September",
+            "year": "2019",
+            "paper": "https://openreview.net/pdf?id=BkesGnCcFX"
+        },
+        {
+            "short": "dodeepnavigate17",
+            "bibtype": "inproceedings",
+            "title": "Do Deep Reinforcement Learning Algorithms really learn to Navigate?",
+            "author": "Vikas Dhiman and Shurjo Banerjee and Brent Griffin and Jason J. Corso",
+            "booktitle": "NeurIps Deep Reinfocement Learning Workshop",
+            "month": "December",       
+            "year": "2017",
+            "paper": "https://drive.google.com/file/d/1WfC6iJEFyJtw9VL6ppvNz03_kcpx1DKj/view"
         }
+
  	]
  },
  {
